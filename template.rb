@@ -113,7 +113,9 @@ def source_paths
   ## --------------------------------------------------
   
   copy_and_replace '.gitignore'
-  
+  copy_and_replace '.rubocop.yml'
+  copy_and_replace 'Guardfile'
+
   ## Controllers
   copy_and_replace 'app/controllers/application_controller.rb'
   copy_and_replace 'app/controllers/registrations_controller.rb'
@@ -135,13 +137,13 @@ def source_paths
   
   # Spec
   copy_and_replace 'spec/rails_helper.rb'
+  copy_and_replace 'spec/spec_helper.rb'
   copy_and_replace 'spec/controllers/registrations_controller_spec.rb'
   copy_and_replace 'spec/controllers/sessions_controller_spec.rb'
   copy_and_replace 'spec/controllers/users_controller_spec.rb'
   
   copy_and_replace 'spec/factories/users.rb'
   copy_and_replace 'spec/support/api_helpers.rb'
-  copy_and_replace 'spec/support/user_helpers.rb'
   
   ## --------------------------------------------------
   ## Remove unwanted files

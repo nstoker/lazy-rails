@@ -1,0 +1,8 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - db/**/*.rb
+    - node_modules/**/*.*
+    - spec/**/*.rb
+    - Guardfile
+  NewCops: enable

@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Basic app creation with Guardfile, RSpec, Webpacker, and SimpleCov enabled.
+- Initial setup of application.
